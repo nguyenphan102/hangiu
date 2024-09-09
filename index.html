@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Jack & Rose - Free Wedding Website Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;600&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="51">
+    <!-- Navbar Start -->
+    <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-dark navbar-dark py-3 py-lg-0 px-lg-5">
+        <a href="index.html" class="navbar-brand d-block d-lg-none">
+            <h1 class="font-secondary text-white mb-n2">Hơn <span class="text-primary">&</span> Tơn</h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+            <div class="navbar-nav ml-auto py-0">
+                <a href="#home" class="nav-item nav-link active">Home</a>
+                <a href="#about" class="nav-item nav-link">Wishes</a>
+            </div>
+            <a href="index.html" class="navbar-brand mx-5 d-none d-lg-block">
+                <h1 class="font-secondary text-white mb-n2">Hơn <span class="text-primary">&</span> Tơn</h1>
+            </a>
+            <div class="navbar-nav mr-auto py-0">
+                <a href="#story" class="nav-item nav-link">Our story</a>
+                <a href="#gallery" class="nav-item nav-link">Our gallery</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 mb-5 pb-5" id="home">
+        <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item position-relative active" style="height: 100vh; min-height: 400px;">
+                    <img class="position-absolute w-100 h-100" src="img/carousel-1.jpg.PNG" style="object-fit: cover;">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h1 class="display-1 font-secondary text-white mt-n3 mb-md-4">Lê Thị Nguyệt Hằng</h1>
+                            <div class="d-inline-block border-top border-bottom border-light py-3 px-4">
+                                <h3 class="text-uppercase font-weight-normal text-white m-0" style="letter-spacing: 2px;">Happy birthday</h3>
+                            </div>
+                            <button type="button" class="btn-play mx-auto" data-toggle="modal"
+                                data-src="img/video.mp4" data-target="#videoModal">
+                                <span></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item position-relative" style="height: 100vh; min-height: 400px;">
+                    <img class="position-absolute w-100 h-100" src="img/carousel-2.jpg" style="object-fit: cover;">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h1 class="display-1 font-secondary text-white mt-n3 mb-md-4">Yue Héng</h1>
+                            <div class="d-inline-block border-top border-bottom border-light py-3 px-4">
+                                <h3 class="text-uppercase font-weight-normal text-white m-0" style="letter-spacing: 2px;">Shēngrì kuàilè</h3>
+                            </div>
+                            <button type="button" class="btn-play mx-auto" data-toggle="modal"
+                                data-src="img/video2.mp4" data-target="#videoModal">
+                                <span></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev justify-content-start" href="#header-carousel" data-slide="prev">
+                <div class="btn btn-primary px-0" style="width: 68px; height: 68px;">
+                    <span class="carousel-control-prev-icon mt-3"></span>
+                </div>
+            </a>
+            <a class="carousel-control-next justify-content-end" href="#header-carousel" data-slide="next">
+                <div class="btn btn-primary px-0" style="width: 68px; height: 68px;">
+                    <span class="carousel-control-next-icon mt-3"></span>
+                </div>
+            </a>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- Video Modal Start -->
+    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>        
+                    <!-- 16:9 aspect ratio -->
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Video Modal End -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid py-5" id="about">
+        <div class="container py-5">
+            <div class="section-title position-relative text-center">
+                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Đôi lời nhắn gửi</h6>
+                <h1 class="font-secondary display-4">Tuổi 21 của Hằng iu</h1>
+                <p>Chao xìn mặt trăng của anh, chào mừng em đến với một trong những trang web đầu tiên của anh. Đây là một chút thành quả sau một thời gian hè mày mò học linh tinh. Hy vọng là bé iu không chê nhó hjhj. </p>
+                <i class="far fa-heart text-dark"></i>
+            </div>
+            <div class="row m-0 mb-4 mb-md-0 pb-2 pb-md-0">
+                <div class="col-md-6 p-0 text-justify text-md-justify">
+                    <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-5">
+                        <p>Nhân dịp tuổi 20, anh chúc bé iu của anh ngày càng xinh đẹp, ngày càng tỏa sáng, rực rỡ như những bông hoa hướng dương dưới nắng nhé. Người yêu anh rất rất đẹp, bởi vậy phải luôn tự tin nhé! Hằng iu luôn là công chúa trong lòng anh. <3</p>
+                        <h3 class="font-secondary font-weight-normal text-muted text-md-right mb-3"></i>Nguyên</h3>
+                    </div>
+                </div>
+                <div class="col-md-6 p-0" style="min-height: 400px;">
+                    <img class="position-absolute w-100 h-100" src="img/loichuc1.PNG" style="object-fit: cover;">
+                </div>
+            </div>
+            <div class="row m-0">
+                <div class="col-md-6 p-0" style="min-height: 400px;">
+                    <img class="position-absolute w-100 h-100" src="img/loichuc2.JPG" style="object-fit: cover;">
+                </div>
+                <div class="col-md-6 p-0 text-justify text-md-justify">
+                    <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-5">
+                        <p>Bây giờ đã là U30 roài, chúc công chúa của anh sẽ ngày càng mạnh khỏe, tràn đầy năng lượng để đương đầu với những khó khăn, thử thách sắp tới nhớ. Nàng hãy nhớ là sẽ luôn có anh ở bên nghe chưaa!</p>
+                        <h3 class="font-secondary font-weight-normal text-muted text-md-right mb-3"></i>Nguyên</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row m-0 mb-4 mb-md-0 pb-2 pb-md-0">
+                <div class="col-md-6 p-0 text-justify text-md-justify">
+                    <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-5">
+                        <p>Ngày em bước sang tuổi 21 cũng là ngày Hằng iu trở thành một cô sinh viên năm tư rùi. Chúc bé iu năm học cuối này có thể chinh phục được mục tiêu mà em hằng ao ước, đó là học bổng học tập loại A nha! 
+Cố lên, anh cũng sẽ đồng hành cùng với nàng để quyết tâm giật bằng được học bổng về nhaa. Và dù thế nào đi chăng nữa, bé iu phải luôn nhớ là, em rất giỏi và chăm chỉ trong mắt anh, em luôn là mục tiêu và động lực để anh cố gắng hơn trong cuộc sống này. Bởi vậy, em phải luôn tự tin lên nhó! <3  </p>
+                        <h3 class="font-secondary font-weight-normal text-muted text-md-right mb-3"></i>Nguyên</h3>
+                    </div>
+                </div>
+                <div class="col-md-6 p-0" style="min-height: 400px;">
+                    <img class="position-absolute w-100 h-100" src="img/loichuc3.JPG" style="object-fit: cover;">
+                </div>
+            </div>
+            <div class="row m-0">
+                <div class="col-md-6 p-0" style="min-height: 400px;">
+                    <img class="position-absolute w-100 h-100" src="img/loichuc4.PNG" style="object-fit: cover;">
+                </div>
+                <div class="col-md-6 p-0 text-justify text-md-justify">
+                    <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-5">
+                        <p>Cuối cùng, xin chúc công chúa của anh sẽ ngày càng yêu anh hơn nha. Cảm ơn em đã đến và cho chúng ta cơ hội để trở thành một phần quan trọng trong cuộc sống của nhau! Anh mong rằng chúng ta sẽ đi thật xa cùng nhau, sẽ ngày càng trở nên trưởng thành và hoàn hảo hơn cùng nhau! Và em phải nhớ là, anh rất yêu emm, anh luôn nghĩ tích cực về bé iu của anhhh! Nghe chưa hả, anh rất yêu nàng! <3 </p>
+                        <h3 class="font-secondary font-weight-normal text-muted text-md-right mb-3"></i>Nguyên</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Story Start -->
+    <div class="container-fluid py-5" id="story">
+        <div class="container pt-5 pb-3">
+            <div class="section-title position-relative text-center">
+                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Story</h6>
+                <h1 class="font-secondary display-4">Our Love Story</h1>
+                <p>Cùng nhìn lại một chút về câu chuyện tình iu của chúng ta nhó hjhj</p>
+                <i class="far fa-heart text-dark"></i>
+            </div>
+            <div class="container timeline position-relative p-0">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-right">
+                        <img class="img-fluid mr-md-3" src="img/story1.JPG" alt="">
+                    </div>
+                    <div class="col-md-6 text-center text-md-left">
+                        <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4 ml-md-3">
+                            <h4 class="mb-2">First Meet</h4>
+                            <p class="text-uppercase mb-2">Tháng 10 2022 </p>
+                            <p class="m-0">Thực ra bảo lần đầu gặp cũng không phải, đúng hơn đây là lần đầu chúng ta bonding, lần đầu chúng ta góp mặt chung trong một khung hình. Và việc chung nhóm 3 tập huấn xung kích cũng đã mở đầu cho câu chuyện tình iu của hai taa :)))</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-right">
+                        <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4 mr-md-3">
+                            <h4 class="mb-2">Lần đầu nói chuyện</h4>
+                            <p class="text-uppercase mb-2">12 tháng 8 2023</p>
+                            <p class="m-0">Lần đầu chúng ta có cơ hội tiếp xúc gần hơn là khi mình được xếp chung nhóm 4 tập huấn MHX. Thời gian ấy, ta được những con người ấy đưa đẩy để có thể thành được một đôi. Thật tình, anh rất biết ơn khoảng thời gian đó và những thành viên của nhóm 4, đã giúp anh gặp và nên duyên được với emm!</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-center text-md-left">
+                        <img class="img-fluid ml-md-3" src="img/story2.JPG" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-right">
+                        <img class="img-fluid mr-md-3" src="img/story3.png" alt="">
+                    </div>
+                    <div class="col-md-6 text-center text-md-left">
+                        <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4 ml-md-3">
+                            <h4 class="mb-2">First Date</h4>
+                            <p class="text-uppercase mb-2">30 tháng 9 2023</p>
+                            <p class="m-0">Lần đầu đi date nè, thuyết phục mãi mới đi, mất bao công sức của người ta hức. Anh tìm mãi mà không nhớ cái video Ngân quay được mình đi trong trường đâu hết:((</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-right">
+                        <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4 mr-md-3">
+                            <h4 class="mb-2">Tỏ tình lần 1</h4>
+                            <p class="text-uppercase mb-2">20 tháng 10 2023</p>
+                            <p class="m-0">Hôm tỏ tình lần 1 nè, anh lấy hết dũng khí để lần đầu tiên nói ra lời iu trong cuộc đời. Thế mà chả hỉu sao kêu về suy nghĩ xong nghĩ liền 2 tháng luôn.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-center text-md-left">
+                        <img class="img-fluid ml-md-3" src="img/story5.PNG" alt="">
+                    </div>
+                </div>
+                <div class="container timeline position-relative p-0">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-right">
+                            <img class="img-fluid mr-md-3" src="img/story4.jpeg" alt="">
+                        </div>
+                        <div class="col-md-6 text-center text-md-left">
+                            <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4 ml-md-3">
+                                <h4 class="mb-2">Công viên Yên Sở</h4>
+                                <p class="text-uppercase mb-2">26 tháng 11 2023</p>
+                                <p class="m-0">Đây là hôm đi chơi công viên Yên Sở với đội nè. Đợt này bắt đầu hay trục trặc giận hờn gòi. Ngay hôm trước còn dỗi, anh phải phi sang tận nơi, nói thích em lần 2, sau đó thuyết phục mãi mới chịu đi.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-right">
+                            <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4 mr-md-3">
+                                <h4 class="mb-2">Món quà đầu tiên</h4>
+                                <p class="text-uppercase mb-2">20 tháng 11 2050</p>
+                                <p class="m-0">Món quà đầu tiên mà em tặng anh :))). Hôm í còn đưa bất ngờ, xong viết thư mùi mẫn lắm. Nhưng mà lúc này là còn đang chưa dám tin sẽ đi xa được với nhau nè:v </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 text-center text-md-left">
+                            <img class="img-fluid ml-md-3" src="img/story6.PNG" alt="">
+                        </div>
+                    </div>
+            </div>
+            <div class="container timeline position-relative p-0">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-right">
+                        <img class="img-fluid mr-md-3" src="img/story7.PNG" alt="">
+                    </div>
+                    <div class="col-md-6 text-center text-md-left">
+                        <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4 ml-md-3">
+                            <h4 class="mb-2">Tỏ tình thành công</h4>
+                            <p class="text-uppercase mb-2">25 tháng 12 2023</p>
+                            <p class="m-0">Cuối cùng thì cũng thành công, sau 6 tháng mòn mỏi đợi chờ và 20 năm độc thân, anh đã có cho mình một cô người yêu hết sức xịn xò. Khoảnh khắc em đồng ý khiến anh gớt cả nước măt, bao nhiêu công sức cưa cẩm đã được đền đáp. Anh đã chuẩn bị tinh thần có thể bị em từ chối lần 2, trước khi đi anh còn thắp cả hương xin các cụ. Nhưng may quớ, cuối cùng thì em cũng đã đồng ý gòi. Cảm ơn bé iu nhìu lắm!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-right">
+                        <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4 mr-md-3">
+                            <h4 class="mb-2">Đi về Thái Bình ăn cưới</h4>
+                            <p class="text-uppercase mb-2">20 tháng 1 2024</p>
+                            <p class="m-0">Chuyến đi xa đầu tiên của chúng ta, lần đầu anh ra mắt các chị cùng phòng em, cũng là lần đầu em đi xe ô tô anh lái. Lần ý bảo không lo thì cũng không đúng, anh đã phải thắp hương cũng như tập rượt và xem cung đường đi thật kỹ càng. May sao, chuyến đi diễn ra thuận lợi và anh cũng đã thành công ra mắt các chị của emm.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-center text-md-left">
+                        <img class="img-fluid ml-md-3" src="img/story8.JPG" alt="">
+                    </div>
+                </div>
+        </div>
+        <div class="container timeline position-relative p-0">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-right">
+                    <img class="img-fluid mr-md-3" src="img/story9.png" alt="">
+                </div>
+                <div class="col-md-6 text-center text-md-left">
+                    <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4 ml-md-3">
+                        <h4 class="mb-2">Đi làm bánh</h4>
+                        <p class="text-uppercase mb-2">06 tháng 4 2024</p>
+                        <p class="m-0">Lần đầu đi làm bánh với nhauuu, tưởng không ngon nhưng mà lại ngon không tưởng:))). Đây cũng là một trong những điều chúng ta hẹn với nhau từ thời gian đầu tìm hiểu, nhưng phải 9 tháng sau mới có cơ hội để thực hiện:))))</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 text-center text-md-right">
+                    <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4 mr-md-3">
+                        <h4 class="mb-2">Lần đầu về Hải Phòng ra mắt</h4>
+                        <p class="text-uppercase mb-2">15 tháng 7 2024</p>
+                        <p class="m-0">Sau một khoảng thời gian dài thuyết phục, cuối cùng nàng cũng đồng ý cùng anh về để ra mắt ông. Dù hơi muộn một tí nhưng ít nhất anh cũng đã thực hiện được lời hứa rui, cảm ơn bé iu rấc nhìu hjhj. Chuyến đi dù có những kỷ niệm khá nhớ đời nhưng dù sao mình cũng đã rất vui mà đúng hog :))))))</p>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center text-md-left">
+                    <img class="img-fluid ml-md-3" src="img/story10.PNG" alt="">
+                </div>
+            </div>
+    </div>
+    <div class="container timeline position-relative p-0">
+        <div class="row">
+            <div class="col-md-6 text-center text-md-right">
+                <img class="img-fluid mr-md-3" src="img/story11.png" alt="">
+            </div>
+            <div class="col-md-6 text-center text-md-left">
+                <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4 ml-md-3">
+                    <h4 class="mb-2">Phú Quốc</h4>
+                    <p class="text-uppercase mb-2">10 tháng 8 2024</p>
+                    <p class="m-0">Một trong những bức hình hiếm hoi mà nàng chịu chụp nghim túc với anh. Mới đầu nhìn thì không ưng lắm nhưng chả hỉu sao càng ngắm anh càng thấy đẹp í, chắc do trong ấy có 1 thiên thần, cùng với người iu của anh ấy:))))</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 text-center text-md-right">
+                <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4 mr-md-3">
+                    <h4 class="mb-2">Ra mắt</h4>
+                    <p class="text-uppercase mb-2">10 tháng 8 2024</p>
+                    <p class="m-0">Chuyến đi Phú Quốc này cũng là lần đầu Hằng iu về ra mắt gia đình anh. Anh biết em đã rất lo lắng, nhưng không sao, gia đình anh luôn luôn chào đón em và luôn chúc phúc cho 2 đứa mềnh. Bởi vậy hãy đi chơi với nhà anh nhiều hơn nha, sẽ còn rất nhiều chuyến đi nữa đó!</p>
+                </div>
+            </div>
+            <div class="col-md-6 text-center text-md-left">
+                <img class="img-fluid ml-md-3" src="img/story12.png" alt="">
+            </div>
+        </div>
+    </div>
+        </div>
+    </div>
+    <!-- Story End -->
+
+
+    <!-- Gallery Start -->
+    <div class="container-fluid bg-gallery" id="gallery" style="padding: 120px 0; margin: 90px 0;">
+        <div class="section-title position-relative text-center" style="margin-bottom: 120px;">
+            <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Những bức hình mà anh thích nhất</h6>
+            <h1 class="font-secondary display-4 text-white">Our Photo Gallery</h1>
+            <i class="far fa-heart text-white"></i>
+        </div>
+        <div class="owl-carousel gallery-carousel">
+            <div class="gallery-item">
+                <img class="img-fluid w-100" src="img/gallery2.png" alt="">
+                <a href="img/gallery2.png" data-lightbox="gallery">
+                    <i class="fa fa-2x fa-plus text-white"></i>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <img class="img-fluid w-100" src="img/gallery3.png" alt="">
+                <a href="img/gallery3.png" data-lightbox="gallery">
+                    <i class="fa fa-2x fa-plus text-white"></i>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <img class="img-fluid w-100" src="img/gallery4.PNG" alt="">
+                <a href="img/gallery4.PNG" data-lightbox="gallery">
+                    <i class="fa fa-2x fa-plus text-white"></i>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <img class="img-fluid w-100" src="img/gallery5.PNG" alt="">
+                <a href="img/gallery5.PNG" data-lightbox="gallery">
+                    <i class="fa fa-2x fa-plus text-white"></i>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <img class="img-fluid w-100" src="img/gallery6.JPG" alt="">
+                <a href="img/gallery6.JPG" data-lightbox="gallery">
+                    <i class="fa fa-2x fa-plus text-white"></i>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <img class="img-fluid w-100" src="img/gallery7.JPG" alt="">
+                <a href="img/gallery7.JPG" data-lightbox="gallery">
+                    <i class="fa fa-2x fa-plus text-white"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Gallery End -->
+
+
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-white py-5" id="contact" style="margin-top: 90px;">
+        <div class="container text-center py-5">
+            <div class="section-title position-relative text-center">
+                <h1 class="font-secondary display-3 text-white">Phan Nguyên</h1>
+                <i class="far fa-heart text-white"></i>
+            </div>
+            <div class="d-flex justify-content-center mb-4">
+                <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-lg btn-outline-light btn-lg-square" href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="d-flex justify-content-center py-2">
+                <p class="text-white" href="#">phan.nguyen.1022003@gmail.com</p>
+                <span class="px-3">|</span>
+                <p class="text-white" href="#">+84 906 202 628</p>
+           
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Scroll to Bottom -->
+    <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-outline-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
